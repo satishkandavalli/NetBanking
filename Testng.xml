@@ -3,17 +3,18 @@
 
 <suite name="NetBankingFramework">
 
-	
-<listeners>
+
+	<listeners>
 		<listener class-name="com.fdmgroup.utilities.Reporting" />
 	</listeners>
 
 	<test name="BankingApp Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
-		<!--	<class name="com.fdmgroup.testCases.TC_LoginTest" /> -->
-			<class name="com.fdmgroup.testCases.TC_LoginDDT_002" />
-			
+			<!-- <class name="com.fdmgroup.testCases.TC_LoginTest" /> -->
+			<!--   <class name="com.fdmgroup.testCases.TC_LoginDDT_002" /> -->
+			<class name="com.fdmgroup.testCases.TC_AddCustomerTest_003" />
+
 
 		</classes>
 
